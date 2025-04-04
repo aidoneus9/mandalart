@@ -1,0 +1,191 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 225px);
+  grid-template-rows: repeat(3, 225px);
+  margin: 50px auto; /* 상하 / 좌우 가운데 정렬 */
+  width: max-content;
+  position: relative;
+}
+.square {
+  border: 0.75px solid #000000;
+  width: 225px;
+  height: 225px;
+}
+#core {
+  background-color: #ffffff;
+  grid-row: 2;
+  grid-column: 2;
+
+  display: grid;
+  grid-template-columns: repeat(3, 75px);
+  grid-template-rows: repeat(3, 75px);
+}
+.box {
+  border: 0.75px solid #000000;
+  width: 75px;
+  height: 75px;
+}
+#a {
+  background-color: #39ff14;
+  grid-row: 1;
+  grid-column: 1;
+}
+#b {
+  background-color: #39ff14;
+  grid-row: 1;
+  grid-column: 2;
+}
+#c {
+  background-color: #39ff14;
+  grid-row: 1;
+  grid-column: 3;
+}
+#d {
+  background-color: #39ff14;
+  grid-row: 2;
+  grid-column: 1;
+}
+#e {
+  background-color: #004d00;
+  grid-row: 2;
+  grid-column: 2;
+  color: #ffffff;
+}
+#f {
+  background-color: #39ff14;
+  grid-row: 2;
+  grid-column: 3;
+}
+#g {
+  background-color: #39ff14;
+  grid-row: 3;
+  grid-column: 1;
+}
+#h {
+  background-color: #39ff14;
+  grid-row: 3;
+  grid-column: 2;
+}
+#i {
+  background-color: #39ff14;
+  grid-row: 3;
+  grid-column: 3;
+}
+
+#one {
+  background-color: #ffffff;
+  grid-row: 1;
+  grid-column: 1;
+
+  display: grid;
+  grid-template-columns: repeat(3, 75px);
+  grid-template-rows: repeat(3, 75px);
+}
+#A {
+  background-color: #ffffff;
+  grid-row: 1;
+  grid-column: 1;
+}
+#B {
+  background-color: #ffffff;
+  grid-row: 1;
+  grid-column: 2;
+}
+#C {
+  background-color: #ffffff;
+  grid-row: 1;
+  grid-column: 3;
+}
+#D {
+  background-color: #ffffff;
+  grid-row: 2;
+  grid-column: 1;
+}
+#E {
+  background-color: #39ff14;
+  grid-row: 2;
+  grid-column: 2;
+}
+#F {
+  background-color: #ffffff;
+  grid-row: 2;
+  grid-column: 3;
+}
+#G {
+  background-color: #ffffff;
+  grid-row: 3;
+  grid-column: 1;
+}
+#H {
+  background-color: #ffffff;
+  grid-row: 3;
+  grid-column: 2;
+}
+#I {
+  background-color: #ffffff;
+  grid-row: 3;
+  grid-column: 3;
+}
+#two {
+  background-color: #ffffff;
+  grid-row: 1;
+  grid-column: 2;
+
+  display: grid;
+  grid-template-columns: repeat(3, 75px);
+  grid-template-rows: repeat(3, 75px);
+}
+#three {
+  background-color: #ffffff;
+  grid-row: 1;
+  grid-column: 3;
+
+  display: grid;
+  grid-template-columns: repeat(3, 75px);
+  grid-template-rows: repeat(3, 75px);
+}
+#four {
+  background-color: #ffffff;
+  grid-row: 2;
+  grid-column: 1;
+
+  display: grid;
+  grid-template-columns: repeat(3, 75px);
+  grid-template-rows: repeat(3, 75px);
+}
+#five {
+  background-color: #ffffff;
+  grid-row: 2;
+  grid-column: 3;
+
+  display: grid;
+  grid-template-columns: repeat(3, 75px);
+  grid-template-rows: repeat(3, 75px);
+}
+#six {
+  background-color: #ffffff;
+  grid-row: 3;
+  grid-column: 1;
+
+  display: grid;
+  grid-template-columns: repeat(3, 75px);
+  grid-template-rows: repeat(3, 75px);
+}
+#seven {
+  background-color: #ffffff;
+  grid-row: 3;
+  grid-column: 2;
+
+  display: grid;
+  grid-template-columns: repeat(3, 75px);
+  grid-template-rows: repeat(3, 75px);
+}
+#eight {
+  background-color: #ffffff;
+  grid-row: 3;
+  grid-column: 3;
+
+  display: grid;
+  grid-template-columns: repeat(3, 75px);
+  grid-template-rows: repeat(3, 75px);
+}
